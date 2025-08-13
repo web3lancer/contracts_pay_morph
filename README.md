@@ -47,8 +47,10 @@ $ anvil
 
 ### Deploy
 
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
+```bash
+export RPC_URL="https://rpc-quicknode-holesky.morphl2.io"
+export PRIVATE_KEY="your_private_key"
+forge script script/Paylancer.s.sol:PaylancerScript --rpc-url $RPC_URL --private-key $PRIVATE_KEY
 ```
 
 ### Cast

@@ -66,7 +66,4 @@ contract Paylancer {
         emit PaymentFulfilled(requestId, msg.sender);
     }
 }
-contract Paylancer {
-    // Add your contract logic here
-    // Example: escrow, payments, etc.
-}
+

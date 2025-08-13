@@ -1,0 +1,34 @@
+{
+  "transactions": [
+    {
+      "hash": null,
+      "transactionType": "CREATE",
+      "contractName": "Paylancer",
+      "contractAddress": "0x75a0d486ce7730fa3752f91d3101997abc942297",
+      "function": null,
+      "arguments": null,
+      "transaction": {
+        "from": "0xb00d3ef5b398a83e0e9f0e33bc259480653a41bb",
+        "gas": "0x1537e",
+        "value": "0x0",
+        "input": "0x6080604052348015600e575f5ffd5b50603e80601a5f395ff3fe60806040525f5ffdfea26469706673582212202326533b4e65db80913cae7be14a15e9a77144af35f816fa6460fd373de0162964736f6c634300081e0033",
+        "nonce": "0x0",
+        "chainId": "0xafa"
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [],
+  "libraries": [],
+  "pending": [],
+  "returns": {
+    "0": {
+      "internal_type": "contract Paylancer",
+      "value": "0x75a0d486ce7730fA3752f91D3101997ABc942297"
+    }
+  },
+  "timestamp": 1755126883437,
+  "chain": 2810,
+  "commit": "dc9fabc"
+}

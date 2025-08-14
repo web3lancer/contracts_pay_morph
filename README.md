@@ -1,3 +1,21 @@
+## Paylancer Smart Contract (Morph Holesky)
+
+- **Contract Address:** `0x75a0d486ce7730fA3752f91D3101997ABc942297`
+- **Chain:** Morph Holesky
+- **Chain ID:** 2810
+- **Block Explorer:** [explorer-holesky.morphl2.io](https://explorer-holesky.morphl2.io/address/0x75a0d486ce7730fA3752f91D3101997ABc942297)
+- **ABI:** See `src/integrations/morph/PaylancerABI.json` in main repo
+
+### Quick Usage (ethers.js)
+```js
+import { ethers } from 'ethers';
+const provider = new ethers.JsonRpcProvider('https://rpc-quicknode-holesky.morphl2.io');
+const abi = require('src/integrations/morph/PaylancerABI.json');
+const contract = new ethers.Contract('0x75a0d486ce7730fA3752f91D3101997ABc942297', abi, provider);
+```
+
+---
+
 ## Foundry
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
